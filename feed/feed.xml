@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="0.91">
+    <channel>
+
+<title>wohn anders</title>
+<link>http://www.summer.song.de/wohn/</link>
+<description>Das Portal für Familien-WGs, Generationenwohnen und alternative Wohnkultur.</description>
+
+<language>de-de</language>
+<copyright>2015 - wohn-anders.de</copyright>
+
+<item>
+            <title>ID 69</title>
+            <link>http://www.summer-song.de/wohn/detailview.php?id=69</link>
+            <description>ID 69 - Beschreibung</description>
+</item>
+
+<item>
+            <title>ID 68</title>
+            <link>http://www.summer-song.de/wohn/detailview.php?id=68</link>
+            <description>ID 68  Beschreibung</description>
+</item>
+
+
+
+<pubDate>Mon, 16 Jul 2007 15:21:36 GMT</pubDate>
+    </channel>
+</rss>
