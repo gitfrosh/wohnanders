@@ -65,9 +65,7 @@ img {
 }
 /*----------------------------------------------HTML 5 Overrides-------------------------------------*/
 
-address,
 article,
-aside,
 figcaption,
 figure,
 footer,
@@ -78,23 +76,7 @@ section {
     margin: 0;
     padding: 0;
 }
-q {
-    display: block;
-    padding: 0 10px 8px 10px;
-    color: #979797;
-    background-color: #ECECEC;
-    font-style: italic;
-    line-height: normal;
-}
-q:before {
-    content: 'ï¿½ ';
-    font-size: 26px;
-}
-q:after {
-    content: ' ï¿½';
-    font-size: 26px;
-    line-height: 0;
-}
+
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
 div.wrapper {
