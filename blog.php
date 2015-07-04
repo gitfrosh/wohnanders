@@ -7,7 +7,6 @@ require_once("include/config.inc.php");
 <!-- content -->
 <div class="wrapper row2">
     <div id="container" class="clear">
-        <div id="inhalt">
             <section id="services" class="clear">
                 <h1>
                     Blog
@@ -35,7 +34,67 @@ require_once("include/config.inc.php");
                     </p>
                 </article>
             </section>
-        </div>
+        <section id="unten" class="last clear">
+            <article class="one_quarter">
+                <figure>
+                    <a href="anzeigen_biete.php">
+                        <img src="images/demo/215x100_search.gif" width="215" height="100" alt="">
+                    </a>
+                    <figcaption>
+                        <h2>
+                            Suche
+                        </h2>
+                        <p>
+                            St&ouml;bere durch freien Wohnraum oder finde mit der Volltext-Suche dein Traum-Zuhause.
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="one_quarter">
+                <figure>
+                    <img src="images/demo/215x100_home.gif" width="215" height="100" alt="">
+                    <figcaption>
+                        <h2>
+                            Biete
+                        </h2>
+                        <p>
+                            Du wohnst bereits in einem Wohnprojekt und suchst noch nach passenden Mitbewohnern?
+                            Kein Problem - Hier kannst du kostenlos eine Anzeige schalten.
+                        </p>
+
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="one_quarter">
+                <figure>
+                    <img src="images/demo/215x100_people.gif" width="215" height="100" alt="">
+                    <figcaption>
+                        <h2>
+                            Indonectetus facilis
+                        </h2>
+                        <p>
+                            Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                        </p>
+
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="one_quarter lastbox">
+                <figure>
+                    <a href="feed/feed.xml">
+                        <img src="images/demo/215x100_rss.gif" width="215" height="100" alt="">
+                    </a>
+                    <figcaption>
+                        <h2>
+                            RSS Feed
+                        </h2>
+                        <p>
+                            Die neuesten Wohnraum-Anzeigen immer aktuell? Abonniere unseren RSS-Feed!
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
     </div>
 </div>
 <?php

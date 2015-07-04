@@ -5,30 +5,28 @@ include "header.php";
 <!-- content -->
 <div class="wrapper row2">
     <div id="container" class="clear">
-        <!-- main content -->
-        <div id="inhalt">
-            <!-- services area -->
             <section id="services" class="clear">
-                <!-- article 1 -->
                 <article class="three_third">
                     <h1>
                         Biete Wohnraum / Suche Mitbewohner
                     </h1>
                     <img src="images/iconmonstr-home-2-icon-80.png" alt="">
-                    Du suchst noch nach Mitbewohnern f&uuml;r dein Wohnprojekt in Berlin? Kein Problem! Erstelle hier
+                    <p>Du suchst noch nach Mitbewohnern f&uuml;r dein Wohnprojekt in Berlin? Kein Problem! Erstelle hier
                     eine
                     <b>
                         kostenlose
                     </b>
                     Anzeige und finde Gleichgesinnte!
 
-
-                    <div class="TTWForm-container">
+                    </p>
+                    </article>
+                    <article class="three_third">
+                    <div class="Form-container">
 
                         <form method="POST" action="biete_check.php" enctype="multipart/form-data">
 
 
-                            <div id="field3-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+                            <div id="field3-container" class="feld">
                                 <label for="field3">
                                     Titel
                                 </label>
@@ -36,7 +34,7 @@ include "header.php";
                             </div>
 
 
-                            <div id="field4-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+                            <div id="field4-container" class="feld">
                                 <label for="field4">
                                     Wohnraumart
                                 </label>
@@ -63,7 +61,7 @@ include "header.php";
                             </div>
 
 
-                            <div id="field7-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+                            <div id="field7-container" class="feld">
                                 <label for="field7">
                                     Bezirk
                                 </label>
@@ -123,7 +121,7 @@ include "header.php";
                             </div>
 
 
-                            <div id="field9-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+                            <div id="field9-container" class="feld">
                                 <label for="field9">
                                     Beschreibung
                                 </label>
@@ -133,7 +131,7 @@ include "header.php";
                             </div>
 
 
-                            <div id="field10-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+                            <div id="field10-container" class="feld">
                                 <label for="field10">
                                     Kontaktname
                                 </label>
@@ -141,7 +139,7 @@ include "header.php";
                             </div>
 
 
-                            <div id="field11-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+                            <div id="field11-container" class="feld">
                                 <label for="field11">
                                     Email-Addresse
                                 </label>
@@ -149,7 +147,7 @@ include "header.php";
                             </div>
 
 
-                            <div id="field12-container" class="field f_100 ui-resizable-disabled ui-state-disabled">
+                            <div id="field12-container" class="feld">
                                 <label for="field12">
                                     Bilder
                                 </label>
@@ -157,7 +155,7 @@ include "header.php";
                             </div>
 
 
-                            <div id="form-submit" class="field f_100 clearfix submit">
+                            <div id="form-submit" class="feld submit">
                                 <input name="submitted" type="submit" value="Speichern"/>
 
                                 <input type="reset" value="Eingaben l&ouml;schen"/>
@@ -166,8 +164,6 @@ include "header.php";
                     </div>
                 </article>
             </section>
-        </div>
-        <!-- / content body -->
     </div>
 </div>
 <?php

@@ -5,7 +5,7 @@ $errors = array();
 // Titel prüfen
 if (!empty($_POST['biete_titel'])) {
     $biete_titel = $_POST['biete_titel'];
-    $pattern     = "/^[a-zA-Z0-9\_]{2,100}/";
+    $pattern     = "/^[a-zA-Z0-9\_,]{2,100}/";
     if (preg_match($pattern, $biete_titel)) {
         $biete_titel = $_POST['biete_titel'];
     } else {

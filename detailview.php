@@ -6,10 +6,6 @@ require_once("include/config.inc.php");
     <!-- content -->
     <div class="wrapper row2">
         <div id="container" class="clear">
-            <!-- Slider -->
-            <!-- main content -->
-            <div id="inhalt">
-                <!-- services area -->
                 <section id="services" class="clear">
                     <?php
                     $id = $_GET['id'];
@@ -38,7 +34,7 @@ require_once("include/config.inc.php");
                     }
 
                     echo "<br><br>";
-                    // Adressdaten auslesen $strasse = get_post_meta($post->ID, 'cpt_strasse_nr', true);
+                    // Adressdaten auslesen
                     $id = $_GET['id'];
                     $strSQL = " SELECT * FROM biete_table WHERE biete_id='$id' ";
                     $rs = mysql_query($strSQL);
@@ -49,6 +45,7 @@ require_once("include/config.inc.php");
                     // Lokation Informationen zusammenfÃ¼gen
                     $adresse = $bezirk .', '.$ort.', '.$land ;
                     ?>
+
                     <!--                Googlemaps einbinden-->
                     <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
                     <script type="text/javascript">
@@ -88,8 +85,6 @@ require_once("include/config.inc.php");
                     include 'contact.php'; ?>
                     </article>
                 </section>
-            </div>
-            <!-- / content body -->
         </div>
     </div>
 <?php

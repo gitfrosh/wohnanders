@@ -2,21 +2,24 @@
 include "header.php";
 ?>
 
-<!-- content -->
 <div class="wrapper row2">
     <div id="container" class="clear">
-        <!-- main content -->
-        <div id="homepage">
-            <!-- services area -->
             <section id="services" class="clear">
-                <!-- article 1 -->
                 <article class="three_third">
-                    <?php
-                    include("process_biete_form.php");
-                    ?>
+                    Ein Projekt zum Modul Web-Programmierung
+
+                    Fachhochschule Brandenburg
+                    Onlinestudiengang Medieninformatik
+
+                    SoSe 2015
+
+
+                    Ein Projekt von
+
+                    Ulrike Exner
+
                 </article>
             </section>
-        </div>
     </div>
 </div>
 

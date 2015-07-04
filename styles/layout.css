@@ -55,9 +55,7 @@ a {
 .fl_left {
     float: left;
 }
-.fl_right {
-    float: right;
-}
+
 img {
     margin: 0;
     padding: 0;
@@ -122,7 +120,7 @@ div.wrapper {
     color: #919191;
     background-color: #232323;
 }
-/*----------------------------------------------Generalise-------------------------------------*/
+/*----------------------------------------------General Stuff-------------------------------------*/
 
 #header,
 #container,
@@ -131,13 +129,14 @@ div.wrapper {
     width: 960px;
     margin: 0 auto;
 }
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+
+#container {
+padding: 30px 0;
 }
+
+
 h1 {
-    margin: 5px;
+    margin-bottom: 16px;
     padding: 0;
     font-size: 23px;
     font-weight: bold;
@@ -145,10 +144,7 @@ h1 {
     line-height: normal;
     text-transform: uppercase;
 }
-h2,
-h4,
-h5,
-h6 {
+h2 {
     margin: 0;
     padding: 0;
     font-size: 19px;
@@ -164,29 +160,7 @@ span.em {
     font-style: italic;
     line-height: normal;
 }
-address {
-    font-style: normal;
-}
-blockquote,
-q {
-    display: block;
-    padding: 8px 10px;
-    color: #979797;
-    background-color: #ECECEC;
-    font-style: italic;
-    line-height: normal;
-}
-blockquote:before,
-q:before {
-    content: 'ï¿½ ';
-    font-size: 26px;
-}
-blockquote:after,
-q:after {
-    content: ' ï¿½';
-    font-size: 26px;
-    line-height: 0;
-}
+
 .one_quarter,
 .two_quarter,
 .three_quarter,
@@ -259,14 +233,12 @@ q:after {
 /*----------------------------------------------Header-------------------------------------*/
 
 #header {
-    padding: 20px 0;
+    padding: 50px 0;
 }
-#header #hgroup {
-    margin: 0 0 60px 0;
-}
+
 #header nav {
     text-align: center;
-    margin: 0px 0 0 0;
+    margin: 0 0 0 0;
     padding: 5px 0;
     color: #C0BAB6;
     background-color: #232323;
@@ -289,61 +261,47 @@ q:after {
     color: #FF9900;
     background-color: #232323;
 }
-/*----------------------------------------------Content Area-------------------------------------*/
 
-#container {
-    padding: 30px 0;
-}
-#container section {
-    display: block;
-    width: 100%;
-    margin: 0 0 50px 0;
-    padding: 0;
-}
-#container .last {
+#header nav ul {
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
-#container .more {
-    text-align: right;
-}
+
+
 /* ------Slider-----*/
 
-#container #slider figure img {
+#slider img {
     float: right;
     width: 960px;
     height: 300px;
 }
-/* ------Main Content-----*/
+/*----------------------------------------------Content Area-------------------------------------*/
 
-#container #inhalt {
+section {
     display: block;
     width: 100%;
+    margin: 0 0 50px 0;
+    padding: 0;
     line-height: 1.7em;
 }
-#container #inhalt #services article h2 {
+
+article img{
+    float:left;
+    margin:0 10px 10px 0;
+    padding:4px;
+    border:1px solid #D6D6D6;}
+
+article h2 {
     color: #666;
     font-size: 16px;
     margin-bottom: 15px;
+    margin-top: 18px;
 }
-#container #inhalt #services article p {
+article p {
     margin-bottom: 10px;
     padding: 0;
 }
-#container #inhalt #unten #search #searchimg{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 4px;
-    border: 1px solid #D6D6D6;
-    display: block;  margin-left: auto;
-    margin-right: auto
-}
-
-
-#container #inhalt #unten article figure h2 {
-  font-size: 14px;
- }
-
-#container #inhalt article img{float:left; margin:0 10px 10px 0; padding:4px; border:1px solid #D6D6D6;}
 
 
 /*----------------------------------------------Footer-------------------------------------*/
@@ -358,14 +316,7 @@ q:after {
 /*----------------------------------------------Formular-------------------------------------*/
 
 
-.field,
-#form-title.field {
-    padding-bottom: 12px;
-    padding-top: 12px;
-    position: relative;
-    clear: both;
-}
-.f_100 {
+.feld {
     width: 96%;
     display: inline;
     padding-bottom: 12px;
@@ -457,17 +408,11 @@ label {
     cursor: pointer;
     min-width: 96px;
     background: #FBFBFB;
-
     border: 1px solid #d9d9d9;
     font-weight: bold;
     color: #666;
 }
-#form-title {
-    padding: 12px;
-}
-#form-title h2 {
-    margin-bottom: 0;
-}
+
 
 /*----------------------------------------------Kontaktformular-------------------------------------*/
 

@@ -6,23 +6,20 @@ require_once("include/config.inc.php");
 <!-- content -->
 <div class="wrapper row2">
     <div id="container" class="clear">
-        <!-- main content -->
-        <div id="inhalt">
-            <!-- services area -->
-            <section id="unten" class="last clear">
+            <section id="services" class="last clear">
                 <h1>
                     Wir Suchen!
                 </h1>
 
                 <article class="two_third">
-                    <figcaption>
+
                         <p>
                             St&ouml;bere durch die Liste und finde verf&uuml;gbaren Wohnraum in Berlin oder Gleichgesinnte,
                             die auf der Suche nach Mitbewohnern sind.
 
                             Die Suchfunktion rechts erleichert Dir das.
                         </p>
-                    </figcaption>
+
 
                 </article>
                 <article id="search" class="one_third lastbox">
@@ -89,8 +86,6 @@ require_once("include/config.inc.php");
 
             </section>
 
-        </div>
-        <!-- / content body -->
     </div>
 </div>
 <?php

@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="de">
 <head>
     <title>wohn anders</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/layout.css" type="text/css">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.summer-song.de/wohn/feed/feed.xml">
-    <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.tools.js"></script>
-    <script type="text/javascript" src="scripts/jquery.uniform.min.js"></script>
-    <script type="text/javascript" src="scripts/main.js"></script>
-    <script type='text/javascript' src='//code.jquery.com/jquery-1.11.2.min.js'></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-
     <script type="text/javascript">
         (function( $ ) {
 
@@ -132,7 +126,8 @@
 
     <!--    Javascript für den Header-Slider-->
     <script>
-    $("#slideshow > div:gt(0)").hide();
+        $(document).ready(function(){
+            $("#slideshow > div:gt(0)").hide();
 
     setInterval(function() {
     $('#slideshow > div:first')
@@ -142,6 +137,7 @@
     .end()
     .appendTo('#slideshow');
     },  3000);
+        });
     </script>
 
 </head>
@@ -151,17 +147,13 @@ require("include/basics.php");
 ?>
 <div class="wrapper row1">
     <header id="header" class="clear">
-        <div id="hgroup">
-
-        </div>
-
         <nav class="fixed-nav-bar">
 
             <ul>
                 <li><a href="index.php"><img src="images/logo2.png" alt="Logo"></a><a href="anzeigen_biete.php">Finde</a> <span class="em">Mitbewohner & Wohnraum</span></li>
                 <li><a href="biete.php">Anzeige</a> <span class="em">schalten</span></li>
                 <li><a href="blog.php">Blog</a></li>
-                <li class="last"><a href="#">&uuml;ber</a></li>
+                <li class="last"><a href="ueber.php">&uuml;ber</a></li>
 
             </ul>
         </nav>

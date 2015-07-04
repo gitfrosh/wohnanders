@@ -5,9 +5,11 @@ include "header.php";
 <!-- content -->
 <div class="wrapper row2">
     <div id="container" class="clear">
-        <!-- Slider -->
-        <section id="slider" class="clear">
-            <figure>
+
+
+            <!-- Slider -->
+            <section id="slider" class="clear">
+
                 <div id="slideshow">
                     <div>
                         <img src="images/head1.png" alt="Header1">
@@ -20,9 +22,7 @@ include "header.php";
                     </div>
                 </div>
 
-            </figure>
-        </section>
-        <div id="inhalt">
+            </section>
             <section id="services" class="clear">
                 <article class="three_third">
                     <h1>
@@ -132,9 +132,6 @@ include "header.php";
                     </figure>
                 </article>
             </section>
-            <!-- / One Quarter -->
-        </div>
-        <!-- / content body -->
     </div>
 </div>
 <?php
